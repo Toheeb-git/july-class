@@ -1,0 +1,53 @@
+  body{
+    padding: 0%;
+    margin: 0%;
+  }
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 20px 40px
+
+}
+.Logo{
+    width;100px;
+}
+ .right-box{
+     flex: 1;
+     display: flex;
+     justify-content: flex-end;
+
+ }
+
+  .middle-box{
+    flex: 2;
+
+
+  }
+  .left-box{
+    flex: 1;
+
+
+  }
+  .search-box{
+    height: 40px;
+    width: 100%;
+    border-radius: 30px;
+    padding-left: 2%;
+    font-size: 15px;
+    border: 1px solid none;
+    outline: none;
+  }
+  .create-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+  }
+  .create-btn:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+
+  }

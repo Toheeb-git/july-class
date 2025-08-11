@@ -1,0 +1,166 @@
+ body{
+    padding: 0%;
+    margin: 0%;
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding:20px 40px;
+ }
+  .Logo{
+    width: 100px;
+  }
+   .right-box{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+   }
+   .middle-box{
+    flex: 2;
+   
+   }
+    .left-box{
+        flex: 1;
+
+    }
+     .search-box{
+        height: 40px;
+        width: 100%;
+        border-radius: 30px;
+        padding-left: 20px;
+        font-size: 15px;
+        border: 1px solid gray;
+        outline: none;
+     }
+     .search-box:focus{
+        border: 2px solid red;
+     }
+     .create-btn{
+      width: 100px;
+      height: 40px;
+      border-radius: 20px;
+      border: none
+     }
+     .create-btn:hover{
+        background-color: gray;
+        cursor: pointer;
+     }
+     section{
+      display: flex;
+   justify-items: center;
+   justify-content: space-between;
+      
+     }
+     .btn1{
+      height: 25px;
+      width: 40px;
+      border-radius: 40px;
+      padding:0px;
+      border: 2px solid none;
+       font-weight: bolder;
+       background-color: black;
+      color: white;
+      cursor: pointer;
+
+
+     }
+   .btn2{
+      height: 25px;
+      border-radius: 30px;
+      outline: 0px;
+       font-weight: bolder;
+      border: 1px solid none;
+       background-color: black;
+       color: white;
+      cursor: pointer;
+   }
+   .btn3{
+      height: 25px;
+      border-radius: 30px;
+      outline: none;
+       font-weight: bolder;
+        background-color: black;
+        color: white;
+      cursor: pointer;
+   }
+   .btn4{
+      height: 25px;
+      border-radius: 30px;
+      outline: none;
+      font-weight: bolder;
+       background-color: black;
+       color: white;
+      cursor: pointer;
+   }
+   .btn5{
+      height: 25px;
+      border-radius: 30px;
+      outline: none;
+      font-weight: bolder;
+       background-color: black;
+       color: white;
+      cursor: pointer;
+   }
+   .btn6{
+      height: 25px;
+      border-radius: 30px;
+      outline: none;
+     font-weight: bolder;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+   }
+   .btn7{
+      height: 25px;
+      border-radius: 30px;
+      outline: none;
+      font-weight:bolder;
+       background-color: black;
+       color: white;
+      cursor: pointer;
+   }
+   .btn8{
+      height: 25px;
+      border-radius: 30px;
+      outline: none;
+      font-weight:bolder;
+       background-color: black;
+       color: white;
+      cursor: pointer;
+   }
+   .btn9{
+      height: 25px;
+      border-radius: 30px;
+      outline: none;
+      font-weight:bolder;
+       background-color: black;
+       color: white;
+      cursor: pointer;
+   }
+   .btn10{
+      height: 25px;
+      border-radius: 30px;
+      outline: none;
+      font-weight:bolder;
+       background-color: black;
+       color: white;
+      cursor: pointer;
+   }
+   .btn1:hover{
+      background-color: white;
+   }
+   
+     
+    
+ /* .et{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+  .et div{
+    height: 60px;
+    width: 50px;
+  } */
