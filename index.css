@@ -4,12 +4,13 @@ ul{
 }
 body{
 padding: 0%; 
-margin: 0%;   
+margin: 0%;
+font-family:"Rubik";   
 }
 nav{
    display: flex;
    justify-content: space-between;
-   padding-top: 20px; 
+   padding: 10px 45px; 
  }
  .left-box{
     display: flex;
@@ -21,7 +22,12 @@ nav{
  }
  li{
     list-style: none;
-    font-weight: bold;
+    font-weight:700;
+    color: #11161d;
+ }
+ li:hover{
+  cursor: pointer;
+  color: #00a2ff;
  }
  .right-box{
    display: flex;
@@ -30,27 +36,85 @@ nav{
  .right-box button:first-child{
   background: none;
   border: none; 
-  font-weight: bold; 
+  font-weight: 650;
+  font-size: 15px; 
+ }
+ .right-box button:first-child:hover{
+  cursor: pointer;
+  color: #00a2ff;
  }
  .demo-btn{
    color:#fc5b1a;
    border: 2px solid #fc5b1a ;
-   border-radius: 7px;
+   border-radius: 10px;
    padding: 10px 20px;
-   font-weight: bold;
+   font-weight: 1000;
    background: none;
+ }
+ .demo-btn:hover{
+  cursor: pointer;
+  background-color: #fc5b1a;
+  color: white;
  }
  .right-box button:last-child{
    color:#ffff;
    border: 2px solid #00a2ff;
-   border-radius: 7px;
+   border-radius: 10px;
    padding: 10px 20px;
-   font-weight: bold;
+   font-weight: 1000;
    background: #00a2ff; 
+ }
+ .right-box button:last-child:hover{
+ cursor: pointer;
+ background-color: #ffff;
+ color:#00a2ff ; 
  }
  /* Hero section */
  .Hero-section{
 height: 100vh;
 display: flex;
+padding:35px ;
 justify-content: center;
+/* background-color: aquamarine; */
+ }
+ .Hero-content{
+  text-align: center;
+ }
+ .Hero-content p:first-child{
+  font-size: 100%;
+  font-weight: 700;
+  color: #717171;
+ }
+ .Hero-content h1{
+  font-size: 420%;
+  font-weight: 700;
+  color: #000;
+ }
+ .Hero-content p:last-child{
+  font-size: 17px;
+  font-weight: 400;
+  color: #000;
+ }
+ .Hero-content button{
+  width: 25%;
+  height: 10%;
+  font-size:120%;
+  font-weight: 700;
+  margin: 7px;
+  margin-top: 40px;
+  border-radius: 20px;
+  border: 3px solid #e7d42b;
+  background-color: #fbe30c;
+  color: #19b19;
+ }
+ .Hero-content button:hover{
+  background-color: #00a2ff;
+  color: #ffff;
+  border: none;
+  border: 3px solid #1693db ;
+  cursor: pointer;
+ }
+ .Hero-content span{
+  font-size: 11px;
+  color: #000000;
  }
