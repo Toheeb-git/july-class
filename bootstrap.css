@@ -1,0 +1,58 @@
+.mt-5{
+    background-color: black;
+    padding: 20px 0;
+    color: #fff;
+}
+.mu{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 40px; */
+    /* background-color: black; */
+}
+.mu div{
+    display: flex;
+    flex-direction: column;
+}
+.mu div ul li{
+ list-style: none;
+ cursor: pointer;
+}
+.mu div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* color: #fff; */
+}
+p{
+    text-align: center;
+}
+#book-details{
+    margin:50px 600px ;
+}
+.form-details{
+  margin: 0px 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form div input{
+    height: 32px;
+    font-size: medium;
+    padding: 0px 9px;
+}
+form input{
+   border-radius: 5px; 
+   border: 1px solid #9c9a9a;
+}
+form input:focus{
+    outline: none;
+}
+.Request-box{
+    width: 470px;
+    height: 70px;
+}
