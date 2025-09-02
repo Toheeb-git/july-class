@@ -45,6 +45,10 @@ body{
     border-radius: 4px;
     border: none;
 }
+.sign-box button:hover{
+    cursor: pointer;
+    background-color: rgb(187, 79, 79);
+}
 .sign-code{
     display: flex;
     flex-direction: column;
@@ -62,6 +66,7 @@ body{
     opacity: 1;
     border-radius: 3px;
     border: none;
+    cursor: pointer;
 }
 .sign-code a{
     padding: 20px 100px;
