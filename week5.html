@@ -158,20 +158,20 @@
             // console.log(person.name[1]) ; //Accessing an object
               // person.age = 10;
               // console.log(person);// modifying an object
-              // delete person.age; //delete an object
-
+                  // delete person.age; //delete an object
+                  //  console.log(person);
               //JSON
           //      const person = {
           //     "name" : ["john", "mike"],
           //     "age" : 20,                 //==> Keys are always in string
           //     "class": "fullstack",
           //   };
-          // const jsonObject = JSON.parse(person) //convert Json to object
-          //     console.log(jsonObject)
+          //  const jsonObject = json.parse(person) //convert Json to object
+          //     console.log(jsonObject);
           //  constobjectJson = JSON.stringify(person) // convert object to JSON
           //  console.log( constobjectJson);
 
-          //MAP
+         // MAP
           // let person = new Map([
           //   ["name", "Mike"],
           //   ["class", "Frontend"],
@@ -227,6 +227,8 @@
               //   return x * x;
               // }
               // console.log(square(2))
+              // const square = (x) => x *x
+              // console.log(square(2));
               
 
             
@@ -243,17 +245,22 @@
               // };
               //   print(4)
 
-                function isEvenNumber(n) {
-                  for (let i = 1; i <= n; i++) {
-                    if(i%2 ==0) {
-                      console.log(true);
-                    } else {
-                      console.log(false)
-                    }
-                  }
-                };
-                isEvenNumber(2)
+                // function isEvenNumber(n) {
+                //   for (let i = 1; i <= n; i++) {
+                //     if(i%2 ==0) {
+                //       console.log(true);
+                //     } else {
+                //       console.log(false)
+                //   }
+                // };
+                //     }
+                // isEvenNumber(7);
+             const isEvenNumber = (n) => n%2 ==0
+             console.log(isEvenNumber(12));
 
+             const isOdd =(n) => n%2 ==1;
+             console.log(isOdd(8));
+              
   
 
         
