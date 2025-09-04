@@ -119,38 +119,142 @@
 
         //Assignment
              //1
-      let num = [21, 9, 3, 13, 16, 32, 8,11, 6, 12]
-       let multiplication = num.map((n) => n * 2);
-         console.log(multiplication);
-            //2
-           let score = [45, 67, 89, 34, 90, 76, 54] 
-           let sorted = score.filter((s) => s > 60);
-           console.log(sorted);
-              //4
-           let fruit = ["apple", "banana", "mango", "orange", "pear"]
-             console.log(fruit.slice(0, 3))
-              // 5
-             fruit[2] = "grapes";
-             console.log(fruit.splice(0, 5));
-                //6
-                let sorted = score.find((n) => n > 80);
-                console.log(sorted);
-                     //7
-                    fruit.forEach(fruit =>
-                      console.log(fruit.toUpperCase ())
-                    )  
-                 // 8
-                  let name = ["John", "Jane", "Mark", "mary"]
-                  console.log(name.includes("Mark"));
-                   // 9
-                    sorted = num.sort((0, 9)) 
-                    console.log(sorted)
-                  // 10
-                   colors = ["red", "blue"]
-                   color = ["green", "yellow"]
-                   console.log(colors.concat(color))
+      // let num = [21, 9, 3, 13, 16, 32, 8,11, 6, 12]
+      //  let multiplication = num.map((n) => n * 2);
+      //    console.log(multiplication);
+      //       //2
+      //      let score = [45, 67, 89, 34, 90, 76, 54] 
+      //      let sorted = score.filter((s) => s > 60);
+      //      console.log(sorted);
+      //         //4
+      //      let fruit = ["apple", "banana", "mango", "orange", "pear"]
+      //        console.log(fruit.slice(0, 3))
+      //         // 5
+      //        fruit[2] = "grapes";
+      //        console.log(fruit.splice(0, 5));
+      //           //6
+      //           let sorted = score.find((n) => n > 80);
+      //           console.log(sorted);
+      //                //7
+      //               fruit.forEach(fruit =>
+      //                 console.log(fruit.toUpperCase ())
+      //               )  
+                //  // 8
+                //   let name = ["John", "Jane", "Mark", "mary"]
+                //   console.log(name.includes("Mark"));
+                //    // 9
+                //     sorted = num.sort((0, 9)) 
+                //     console.log(sorted)
+                  // // 10
+                  //  colors = ["red", "blue"]
+                  //  color = ["green", "yellow"]
+                  //  console.log(colors.concat(color))
                    
+            // const person = {
+            //   name : ["john", "mike"],
+            //   age : 20,
+            //   class: "fullstack",
+            // };
+            // console.log(person.name[1]) ; //Accessing an object
+              // person.age = 10;
+              // console.log(person);// modifying an object
+              // delete person.age; //delete an object
 
+              //JSON
+          //      const person = {
+          //     "name" : ["john", "mike"],
+          //     "age" : 20,                 //==> Keys are always in string
+          //     "class": "fullstack",
+          //   };
+          // const jsonObject = JSON.parse(person) //convert Json to object
+          //     console.log(jsonObject)
+          //  constobjectJson = JSON.stringify(person) // convert object to JSON
+          //  console.log( constobjectJson);
+
+          //MAP
+          // let person = new Map([
+          //   ["name", "Mike"],
+          //   ["class", "Frontend"],
+          // ]);
+          // person.set("age", 20); // .set
+          // console.log(person);
+          // console.log(person.get("class")); //.get
+          //  console.log(person.has("class")); //.has(true or false)
+
+
+                   //javascript function
+            //  function greet()  {
+            //    console.log("Hello");
+            //  }    
+            //  greet();  //callng the function
+
+            //  function greet(name)  {       // function with parameter
+            //    console.log("Hello" + " " + name);
+            //  }    
+            //  greet("Mike");
+
+            // function add(a, b, c)  {             // Return function
+            //    return a + b - c;
+            //  }    
+            //  console.log(add(3, 2, 1));
+        
+              // const add = (a, b) => a +b          //Arrow function
+              // console.log(add(3, 2))
+
+              // setTimeout(function () {                    //Anonymous function
+              //   console.log("Executed after 2 seconds");
+              // }, 5000);
+                 
+              //Classwork
+
+              // function sayHello () {
+              //   console.log("Hello" + "," + "world")
+              // };
+              // sayHello();
+              // const sayHello = () {
+              //   console.log("Hello" + "," + "world")
+              // }
+
+              // function greet (name) {
+              // console.log("Hello" + name)
+              // }
+              // greet("Mike");
+              // const greet = (name) => {
+              //  console.log("Hello" + name)  
+              // }
+
+              // function square (x) {
+              //   return x * x;
+              // }
+              // console.log(square(2))
+              
+
+            
+              // function print (n) {         //loop function
+              // for (i = 0; i > 5; i++); {
+              //   console.log(i)
+              // }
+              // };
+              // print(3)
+              // const print = (n) => {
+              //  for (i = 0; i < 5; i++) {
+              //   console.log(i);
+              //  }
+              // };
+              //   print(4)
+
+                function isEvenNumber(n) {
+                  for (let i = 1; i <= n; i++) {
+                    if(i%2 ==0) {
+                      console.log(true);
+                    } else {
+                      console.log(false)
+                    }
+                  }
+                };
+                isEvenNumber(2)
+
+  
 
         
           

@@ -91,3 +91,21 @@ body{
 .last{
     font-size: 10px;
 }
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.enquiry{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 10px;
+   padding-left: 160px; 
+}
+.enquiry a{
+    text-decoration: none;
+}
+.list ul{
+    display: flex;
+    flex-direction: row;
+}
