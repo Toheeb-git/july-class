@@ -358,7 +358,39 @@
       // //   console.log("Minor");
       // //  }
       //  console.log(age >= 18 ? "Adult" : "Minor")    //Tenary operator
-          
+
+         //Template string
+        //  let name = "john";
+        //  console.log(`your name is ${name}`);
+
+        // const polite = true;
+        // const greet =() =>{
+        //   console.log("hello");
+        // }                          //matching if with function
+        // if (polite){
+        //   greet();
+        // } else{
+        //   console.log("");
+        // }
+
+        // console.log(polite ? "hello" : "");
+
+             //REGEX
+            //  const pattern = /hello/;
+            //  console.log(pattern.test("hello world"));
+
+            //   const phonePattern = /d/;
+            //  console.log(phonePattern.test("hello world"));
+
+            //   console.log(/[aeiou]/.test("hello"));
+
+              const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]+\.[a-zA-Z]{2}$/;
+              console.log(emailPattern.test("addmore12000@gmail.com.uk"));
+              if  (emailPattern) {
+                alert ("Valid Email");
+              } else {
+                alert("Invalid Email");
+              }
    </script> 
  </body>
  </html>
