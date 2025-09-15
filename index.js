@@ -37,7 +37,7 @@
     const input = document.querySelector("input");
     const ipt = document.querySelector("#Login");
     const btn = document.querySelector("button");
-    btn.addEventListener("click", function(){
+    btn.addEventListener("dblclick", function(){
        if("Login == 0-9+%_-"){
         alert("Login sucessful");
        } else {
