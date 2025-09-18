@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="counter.css"/>
+ </head>
+ <body>
+   <div class="container">
+     <button id="minus-btn">-</button>
+    <span id="count-el">0</span>
+    <button id="plus-btn">+</button>
+    <button id="reset-btn">reset</button>
+
+   </div>
+
+    <script>
+        const minusbtn = document.querySelector("#minus-btn");
+        const plusbtn = document.querySelector("#plus-btn");
+        const countel = document.querySelector("#count-el");
+        const resetbtn = document.querySelector("#reset-btn");
+
+        let count = 0
+        plusbtn.addEventListener("click", function(){
+            count++;
+            countel.textContent = count;
+            
+        });
+        minusbtn.addEventListener("click", function(){
+            if(count > 0){
+           count--;
+            countel.textContent = count;
+            }
+            
+        });
+        resetbtn.addEventListener("click", function() {
+            count = 0;
+            countel.textContent = count
+        })
+    </script>
+ </body>
+ </html>

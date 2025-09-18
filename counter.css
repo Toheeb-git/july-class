@@ -1,0 +1,39 @@
+body{
+    padding: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+#plus-btn{
+    height: 40px;
+    width: 70px;
+    border-radius: 8px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+ }
+ #minus-btn{
+    height: 40px;
+     width: 70px;
+    border-radius: 8px;
+    font-size: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+ }
+ #reset-btn{
+     height: 40px;
+     width: 70px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: none;
+    background-color: gray;
+    color: white;
+ }
+ #count-el{
+    font-size: 20px;
+ }

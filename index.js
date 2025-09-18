@@ -34,14 +34,45 @@
     //     p.innerHTML = "welcome to js"
     // });
 
-    const input = document.querySelector("input");
-    const ipt = document.querySelector("#Login");
-    const btn = document.querySelector("button");
-    btn.addEventListener("dblclick", function(){
-       if("Login == 0-9+%_-"){
-        alert("Login sucessful");
-       } else {
-        alert("Error");
-       }
-    });
+   //  const input = document.querySelector("input");
+   //  const ipt = document.querySelector("#Login");
+   //  const btn = document.querySelector("button");
+   //  btn.addEventListener("dblclick", function(){
+   //     if("Login == 0-9+%_-"){
+   //      alert("Login sucessful");
+   //     } else {
+   //      alert("Error");
+   //     }
+   //  });
+     //TODAY CLASS
+   //    const p = document.querySelector("p");
+   //    // const btn = document.querySelector("button");
+   //   const change =() => {
+   //    p.innerText = "welcome here"
+   //   }
 
+   // const newElement = document.createElement("p")
+   // newElement.innerText = "This is a new element";
+   // document.body.appendChild(newElement);
+      
+   // const button = document.querySelector("button");
+   // const btn = document.querySelector("#remove-btn")
+   
+
+   // button.addEventListener("click", function(){
+   //  const newElement = document.createElement("div")
+   // newElement.innerText = "product";
+   // document.body.appendChild(newElement);
+      
+   // });
+   
+
+   // remove-btn.addEventListener("click", function(){
+   //  btn.remove();  
+   // });
+
+   const button = document.querySelector("button");
+
+    button.addEventListener("click",{
+    })
+ 
