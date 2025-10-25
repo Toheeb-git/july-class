@@ -24,7 +24,7 @@ const fetchProduct = () => {
     .then((res) => res.json())
     .then((data) =>{
        products = data.products;
-       let LimitedProduct = products.slice(0, 10)
+       let LimitedProduct = products.slice(0, 6)
 
       LimitedProduct.forEach((p) => {
          const productEl = document.createElement("div");
